@@ -1,0 +1,39 @@
+{
+  "name": "jtween",
+  "version": "0.0.1",
+  "description": "jtween be similar to tweenlite and TimelineLite",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobby169/jtween.git"
+  },
+  "keywords": [
+    "arrToEnum",
+    "enum"
+  ],
+  "author": "bobby169",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobby169/jtween/issues"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "homepage": "https://github.com/bobby169/jtween",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@rollup/plugin-babel": "^5.2.2",
+    "jest": "^26.6.3",
+    "rollup": "^2.36.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
