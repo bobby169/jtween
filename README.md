@@ -9,6 +9,12 @@ jtween forked from [jstween](https://github.com/shrekshrek/jstween) to support n
 $ npm install jtween
 ```
 
+Or get it by the cdn and link `jtween.min.js` in your HTML:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/jtween@0.0.4/dist/jtween.min.js"></script>
+```
+
 ```js
 import { JT, JTL, Ease } from 'jtween'
 

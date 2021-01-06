@@ -8,13 +8,13 @@ export default {
     ],
     output: [
         {
-            file: 'dist/index.min.js',
+            file: 'dist/jtween.min.js',
             format: 'umd',
             name: 'jtween',
             plugins: [uglify()]
         },
         {
-            file: 'dist/index.js',
+            file: 'dist/jtween.js',
             format: 'esm',
             name: 'jtween',
         }
