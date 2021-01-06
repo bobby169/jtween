@@ -1,5 +1,5 @@
 import babel from '@rollup/plugin-babel';
-// import {uglify} from "rollup-plugin-uglify";
+import {uglify} from "rollup-plugin-uglify";
 
 export default {
     input: 'src/index.js',
@@ -8,15 +8,15 @@ export default {
     ],
     output: [
         {
-            file: 'dist/index.umd.js',
+            file: 'dist/index.min.js',
             format: 'umd',
-            name: 'jtween'
+            name: 'jtween',
+            plugins: [uglify()]
         },
         {
-            file: 'dist/index.esm.js',
+            file: 'dist/index.js',
             format: 'esm',
             name: 'jtween',
-            // plugins: [uglify()]
         }
     ]
 }

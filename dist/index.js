@@ -1394,7 +1394,7 @@ var JTL = {
   }
 };
 
-var Ease = {
+var ease = {
   Linear: {
     None: function None(k) {
       return k;
@@ -1567,10 +1567,4 @@ var Ease = {
   }
 };
 
-var index = {
-  JT: JT,
-  JTL: JTL,
-  Ease: Ease
-};
-
-export default index;
+export { ease as Ease, JT, JTL };

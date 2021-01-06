@@ -1,9 +1,8 @@
-import { JT } from './jstween'
-import { JTL } from './jstimeline'
+export { JT } from './jstween'
+export { JTL } from './jstimeline'
 import Ease from './ease'
 
-export default {
-    JT,
-    JTL,
+export {
     Ease
 }
+

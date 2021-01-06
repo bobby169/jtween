@@ -1,9 +1,9 @@
 {
   "name": "jtween",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "jtween be similar to tweenlite and TimelineLite",
-  "main": "dist/index.umd.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/index.min.js",
+  "module": "dist/index.js",
   "scripts": {
     "build": "rollup -c",
     "test": "jest"
@@ -13,8 +13,12 @@
     "url": "git+https://github.com/bobby169/jtween.git"
   },
   "keywords": [
-    "arrToEnum",
-    "enum"
+    "jtween",
+    "jstween",
+    "tweenMax",
+    "TimelineMax",
+    "tweenlite",
+    "TimelineLite"
   ],
   "author": "bobby169",
   "license": "MIT",
