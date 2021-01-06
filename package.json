@@ -1,6 +1,6 @@
 {
   "name": "jtween",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "jtween be similar to tweenlite and TimelineLite",
   "main": "dist/index.min.js",
   "module": "dist/index.js",

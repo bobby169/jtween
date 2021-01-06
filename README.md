@@ -1,4 +1,6 @@
 # jtween
+jtween be similar to tweenlite and TimelineLite. only 6KB gzip
+
 jtween forked from [jstween](https://github.com/shrekshrek/jstween) to support npm
 
 ## Usage
